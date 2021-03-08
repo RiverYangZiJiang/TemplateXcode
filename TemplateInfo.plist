@@ -51,6 +51,7 @@
 			<string>#import &lt;UIKit/UIKit.h&gt;</string>
 			<key>Values</key>
 			<array>
+				<string>CPTableViewController</string>
 				<string>LMJStaticTableViewController</string>
 				<string>NSObject</string>
 				<string>SCCornerTableViewCell</string>

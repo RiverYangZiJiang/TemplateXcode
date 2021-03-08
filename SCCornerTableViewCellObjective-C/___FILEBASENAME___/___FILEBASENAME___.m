@@ -25,15 +25,15 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     // 累积收益
-    self.profitTitleLabel.top = 18;
-    self.profitTitleLabel.left = 0;
-    self.profitTitleLabel.width = self.contentView.width;
-    self.profitTitleLabel.height = 20;
+    self.titleLabel.top = 18;
+    self.titleLabel.left = 0;
+    self.titleLabel.width = self.contentView.width;
+    self.titleLabel.height = 20;
 }
 
 #pragma mark - Getters & Setters
 /// 设置模型数据
-- (void)setObject:(CPMyIncomeItemCellObject *)object {
+- (void)setObject:(___FILEBASENAMEASIDENTIFIER___Model *)object {
     [super setObject:object];
 }
 
